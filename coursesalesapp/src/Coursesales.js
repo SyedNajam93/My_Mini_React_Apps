@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import Course from './Course';
+import Cars from './Cars';
 
 export default class Coursesales extends Component {
 
@@ -30,6 +31,8 @@ return <Course name={itemResult.name} price={itemResult.price} key={i} sumPrice=
         <div id='courses'>
         {courses}
         <p id="total">Total:{this.state.total}</p>
+
+  
         </div>
 
       </div>
